@@ -1,0 +1,599 @@
+CVEID	Method or Impact	Context	Artifact	Countermeasure	Phase	Category
+CVE-2021-34527	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2021-34527	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-34527	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2021-34527	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2021-34527	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2021-34527	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2021-34527	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2021-34527	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2021-34527	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2021-34527	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2021-34527	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-0146	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-0143	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-0708	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-0708	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Client-server Payload Profiling	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Network Traffic Community Deviation	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Per Host Download-Upload Ratio Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Protocol Metadata Anomaly Detection	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Remote Terminal Session Detection	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	User Geolocation Logon Pattern Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Network Traffic Filtering	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Asset Vulnerability Enumeration	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Administrative Network Activity Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Connection Attempt Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Broadcast Domain Isolation	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	IPC Traffic Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	DNS Denylisting	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	DNS Traffic Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	DNS Allowlisting	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Forward Resolution Domain Denylisting	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Reverse Resolution IP Denylisting	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	File Carving	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Inbound Traffic Filtering	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Inbound Session Volume Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Forward Resolution IP Denylisting	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Reverse Resolution Domain Denylisting	Containment	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Relay Pattern Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	RPC Traffic Analysis	Identification	Network
+CVE-2005-1794	Man-in-the-Middle	Application	Network Traffic	Outbound Traffic Filtering	Containment	Network
+CVE-2021-44228	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2021-44228	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-44228	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-42269	Trust Failure	Host Operating System	File System Metadata	Asset Vulnerability Enumeration	Identification	File
+CVE-2013-6973	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2013-6973	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2013-6973	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2015-6538	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2015-6538	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2015-6538	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2015-6538	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2015-6538	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2015-6538	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2015-6538	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2015-6538	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2015-6538	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2015-6538	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2015-8453	Authentication Bypass	Host Operating System	Windows Shortcut File	File Encryption	Containment	File
+CVE-2015-8453	Authentication Bypass	Host Operating System	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2015-8453	Authentication Bypass	Host Operating System	Windows Shortcut File	Decoy File	Identification	File
+CVE-2015-8453	Authentication Bypass	Host Operating System	Windows Shortcut File	File Analysis	Identification	File
+CVE-2015-8453	Authentication Bypass	Host Operating System	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2015-8453	Authentication Bypass	Host Operating System	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2015-8453	Authentication Bypass	Host Operating System	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2015-8453	Authentication Bypass	Host Operating System	Authentication	Session Duration Analysis	Identification	General
+CVE-2015-8453	Authentication Bypass	Host Operating System	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2015-8453	Authentication Bypass	Host Operating System	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Client-server Payload Profiling	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Community Deviation	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Per Host Download-Upload Ratio Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Protocol Metadata Anomaly Detection	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Remote Terminal Session Detection	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	User Geolocation Logon Pattern Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Filtering	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Asset Vulnerability Enumeration	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Administrative Network Activity Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Connection Attempt Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Broadcast Domain Isolation	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	IPC Traffic Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Denylisting	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Traffic Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Allowlisting	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution Domain Denylisting	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution IP Denylisting	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	File Carving	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Traffic Filtering	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Session Volume Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution IP Denylisting	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution Domain Denylisting	Containment	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Relay Pattern Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	RPC Traffic Analysis	Identification	Network
+CVE-2016-10609	Man-in-the-Middle	Host Operating System	Network Traffic	Outbound Traffic Filtering	Containment	Network
+CVE-2016-1447	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2016-3085	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2016-3085	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2016-3085	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2016-3085	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2016-3085	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2016-3085	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2016-3085	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2016-3085	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2016-3085	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2016-3085	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2016-3085	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2016-3085	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2016-3085	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2016-3085	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2016-3085	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2016-3085	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2016-3085	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2016-3085	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-18862	Authentication Bypass	Firmware	Windows Shortcut File	File Encryption	Containment	File
+CVE-2017-18862	Authentication Bypass	Firmware	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2017-18862	Authentication Bypass	Firmware	Windows Shortcut File	Decoy File	Identification	File
+CVE-2017-18862	Authentication Bypass	Firmware	Windows Shortcut File	File Analysis	Identification	File
+CVE-2017-18862	Authentication Bypass	Firmware	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2017-18862	Authentication Bypass	Firmware	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2017-18862	Authentication Bypass	Firmware	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2017-18862	Authentication Bypass	Firmware	Authentication	Session Duration Analysis	Identification	General
+CVE-2017-18862	Authentication Bypass	Firmware	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-18862	Authentication Bypass	Firmware	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2017-18862	Privilege Escalation	Firmware	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2017-18862	Privilege Escalation	Firmware	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2017-18862	Privilege Escalation	Firmware	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2017-18862	Privilege Escalation	Firmware	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2017-18862	Privilege Escalation	Firmware	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2017-18862	Privilege Escalation	Firmware	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2017-18862	Privilege Escalation	Firmware	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2017-18862	Privilege Escalation	Firmware	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-3167	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2017-3167	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2017-3167	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2017-3167	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2017-3167	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2017-3167	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2017-3167	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2017-3167	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2017-3167	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-3167	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2017-3167	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2017-3167	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2017-3167	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2017-3167	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2017-3167	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2017-3167	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2017-3167	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2017-3167	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-3795	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-8493	Authentication Bypass	Host Operating System	Windows Shortcut File	File Encryption	Containment	File
+CVE-2017-8493	Authentication Bypass	Host Operating System	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2017-8493	Authentication Bypass	Host Operating System	Windows Shortcut File	Decoy File	Identification	File
+CVE-2017-8493	Authentication Bypass	Host Operating System	Windows Shortcut File	File Analysis	Identification	File
+CVE-2017-8493	Authentication Bypass	Host Operating System	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2017-8493	Authentication Bypass	Host Operating System	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2017-8493	Authentication Bypass	Host Operating System	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2017-8493	Authentication Bypass	Host Operating System	Authentication	Session Duration Analysis	Identification	General
+CVE-2017-8493	Authentication Bypass	Host Operating System	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2017-8493	Authentication Bypass	Host Operating System	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2019-0697	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-0697	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Client-server Payload Profiling	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Community Deviation	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Per Host Download-Upload Ratio Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Protocol Metadata Anomaly Detection	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Remote Terminal Session Detection	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	User Geolocation Logon Pattern Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Filtering	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Asset Vulnerability Enumeration	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Administrative Network Activity Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Connection Attempt Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Broadcast Domain Isolation	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	IPC Traffic Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Denylisting	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Traffic Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Allowlisting	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution Domain Denylisting	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution IP Denylisting	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	File Carving	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Traffic Filtering	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Session Volume Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution IP Denylisting	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution Domain Denylisting	Containment	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Relay Pattern Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	RPC Traffic Analysis	Identification	Network
+CVE-2019-10214	Man-in-the-Middle	Host Operating System	Network Traffic	Outbound Traffic Filtering	Containment	Network
+CVE-2019-10214	Privilege Escalation	Host Operating System	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2019-10214	Privilege Escalation	Host Operating System	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2019-10214	Privilege Escalation	Host Operating System	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2019-10214	Privilege Escalation	Host Operating System	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2019-10214	Privilege Escalation	Host Operating System	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2019-10214	Privilege Escalation	Host Operating System	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2019-10214	Privilege Escalation	Host Operating System	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2019-10214	Privilege Escalation	Host Operating System	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-10231	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2019-10231	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2019-10231	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2019-10231	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2019-10231	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2019-10231	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2019-10231	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2019-10231	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2019-10231	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-10231	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2019-10231	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2019-10231	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-10231	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2019-11170	Authentication Bypass	Firmware	Windows Shortcut File	File Encryption	Containment	File
+CVE-2019-11170	Authentication Bypass	Firmware	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2019-11170	Authentication Bypass	Firmware	Windows Shortcut File	Decoy File	Identification	File
+CVE-2019-11170	Authentication Bypass	Firmware	Windows Shortcut File	File Analysis	Identification	File
+CVE-2019-11170	Authentication Bypass	Firmware	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2019-11170	Authentication Bypass	Firmware	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2019-11170	Authentication Bypass	Firmware	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2019-11170	Authentication Bypass	Firmware	Authentication	Session Duration Analysis	Identification	General
+CVE-2019-11170	Authentication Bypass	Firmware	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-11170	Authentication Bypass	Firmware	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2019-11170	Shutdown	Firmware	Firmware	Firmware Behavior Analysis	Identification	General
+CVE-2019-11170	Shutdown	Firmware	Firmware	Firmware Embedded Monitoring Code	Identification	General
+CVE-2019-11170	Shutdown	Firmware	Firmware	Firmware Verification	Identification	General
+CVE-2019-11170	Shutdown	Firmware	Firmware	Software Update	Containment	General
+CVE-2019-11170	Shutdown	Firmware	Firmware	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-11170	Shutdown	Firmware	Firmware	Peripheral Firmware Verification	Identification	General
+CVE-2019-11170	Shutdown	Firmware	Firmware	System Firmware Verification	Identification	General
+CVE-2019-11170	Privilege Escalation	Firmware	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2019-11170	Privilege Escalation	Firmware	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2019-11170	Privilege Escalation	Firmware	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2019-11170	Privilege Escalation	Firmware	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2019-11170	Privilege Escalation	Firmware	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2019-11170	Privilege Escalation	Firmware	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2019-11170	Privilege Escalation	Firmware	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2019-11170	Privilege Escalation	Firmware	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Client-server Payload Profiling	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Community Deviation	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Per Host Download-Upload Ratio Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Protocol Metadata Anomaly Detection	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Remote Terminal Session Detection	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	User Geolocation Logon Pattern Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Filtering	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Asset Vulnerability Enumeration	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Administrative Network Activity Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Connection Attempt Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Broadcast Domain Isolation	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	IPC Traffic Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Denylisting	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Traffic Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Allowlisting	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution Domain Denylisting	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution IP Denylisting	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	File Carving	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Traffic Filtering	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Session Volume Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution IP Denylisting	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution Domain Denylisting	Containment	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Relay Pattern Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	RPC Traffic Analysis	Identification	Network
+CVE-2019-11554	Man-in-the-Middle	Host Operating System	Network Traffic	Outbound Traffic Filtering	Containment	Network
+CVE-2019-11554	Privilege Escalation	Host Operating System	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2019-11554	Privilege Escalation	Host Operating System	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2019-11554	Privilege Escalation	Host Operating System	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2019-11554	Privilege Escalation	Host Operating System	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2019-11554	Privilege Escalation	Host Operating System	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2019-11554	Privilege Escalation	Host Operating System	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2019-11554	Privilege Escalation	Host Operating System	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2019-11554	Privilege Escalation	Host Operating System	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-1448	Trust Failure	Application	File System Metadata	Asset Vulnerability Enumeration	Identification	File
+CVE-2019-1456	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-1456	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-1677	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Client-server Payload Profiling	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Community Deviation	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Per Host Download-Upload Ratio Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Protocol Metadata Anomaly Detection	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Remote Terminal Session Detection	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	User Geolocation Logon Pattern Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Filtering	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Asset Vulnerability Enumeration	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Administrative Network Activity Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Connection Attempt Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Broadcast Domain Isolation	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	IPC Traffic Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Denylisting	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Traffic Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Allowlisting	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution Domain Denylisting	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution IP Denylisting	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	File Carving	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Traffic Filtering	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Session Volume Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution IP Denylisting	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution Domain Denylisting	Containment	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Relay Pattern Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	RPC Traffic Analysis	Identification	Network
+CVE-2019-18905	Man-in-the-Middle	Host Operating System	Network Traffic	Outbound Traffic Filtering	Containment	Network
+CVE-2019-5188	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-5188	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-8844	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2019-8844	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2020-28344	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2020-28344	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2020-3604	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2020-3604	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2020-6020	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2020-6020	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2020-6020	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2020-6020	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2020-6020	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2020-6020	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2021-1525	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-1525	Privilege Escalation	Host Operating System	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2021-1525	Privilege Escalation	Host Operating System	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2021-1525	Privilege Escalation	Host Operating System	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2021-1525	Privilege Escalation	Host Operating System	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2021-1525	Privilege Escalation	Host Operating System	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2021-1525	Privilege Escalation	Host Operating System	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2021-1525	Privilege Escalation	Host Operating System	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2021-1525	Privilege Escalation	Host Operating System	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-20134	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2021-20134	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-20134	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2021-20134	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2021-20134	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-20134	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2021-21277	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2021-21277	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-21277	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2021-21277	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2021-21277	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2021-21277	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2021-21277	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2021-21277	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2021-21277	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2021-21277	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2021-21277	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-25261	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-3038	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-3038	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-31839	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2021-31839	Privilege Escalation	Host Operating System	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2021-31839	Privilege Escalation	Host Operating System	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2021-31839	Privilege Escalation	Host Operating System	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2021-31839	Privilege Escalation	Host Operating System	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2021-31839	Privilege Escalation	Host Operating System	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2021-31839	Privilege Escalation	Host Operating System	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2021-31839	Privilege Escalation	Host Operating System	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2021-31839	Privilege Escalation	Host Operating System	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Inbound Session Volume Analysis	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Inbound Traffic Filtering	Containment	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Client-server Payload Profiling	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Network Traffic Community Deviation	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Per Host Download-Upload Ratio Analysis	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Protocol Metadata Anomaly Detection	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Remote Terminal Session Detection	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	User Geolocation Logon Pattern Analysis	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Network Traffic Filtering	Containment	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Asset Vulnerability Enumeration	Identification	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Forward Resolution IP Denylisting	Containment	Network
+CVE-2022-20852	Application	Application	Inbound Internet Network Traffic	Reverse Resolution Domain Denylisting	Containment	Network
+CVE-2022-20852	Application	Application	Process Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2022-20852	Application	Application	Process Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2022-20852	Application	Application	Process Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2022-20852	Application	Application	Process Segment	Process Code Segment Verification	Identification	Process
+CVE-2022-20852	Application	Application	Process Segment	Memory Boundary Tracking	Identification	Process
+CVE-2022-20852	Application	Application	Database Query	Database Query String Analysis	Identification	General
+CVE-2022-20852	Application	Application	Database Query	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-2196	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-22672	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2022-22672	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-22672	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-22672	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2022-22672	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-22672	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-24077	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2022-24077	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-24077	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-24091	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2022-24091	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-24091	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-24091	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2022-24091	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-24091	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-26757	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-26757	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-28275	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2022-28275	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-28275	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-28275	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2022-28275	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-28275	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Client-server Payload Profiling	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Community Deviation	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Per Host Download-Upload Ratio Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Protocol Metadata Anomaly Detection	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Remote Terminal Session Detection	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	User Geolocation Logon Pattern Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Network Traffic Filtering	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Asset Vulnerability Enumeration	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Administrative Network Activity Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Connection Attempt Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Broadcast Domain Isolation	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	IPC Traffic Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Denylisting	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Traffic Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	DNS Allowlisting	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution Domain Denylisting	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution IP Denylisting	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	File Carving	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Traffic Filtering	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Inbound Session Volume Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Forward Resolution IP Denylisting	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Reverse Resolution Domain Denylisting	Containment	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Relay Pattern Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	RPC Traffic Analysis	Identification	Network
+CVE-2022-36173	Man-in-the-Middle	Host Operating System	Network Traffic	Outbound Traffic Filtering	Containment	Network
+CVE-2022-36173	Privilege Escalation	Host Operating System	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2022-36173	Privilege Escalation	Host Operating System	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2022-36173	Privilege Escalation	Host Operating System	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2022-36173	Privilege Escalation	Host Operating System	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2022-36173	Privilege Escalation	Host Operating System	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2022-36173	Privilege Escalation	Host Operating System	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2022-36173	Privilege Escalation	Host Operating System	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2022-36173	Privilege Escalation	Host Operating System	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-3649	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-3649	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-45913	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2022-45913	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2022-45913	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2022-4774	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-0462	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-0462	Privilege Escalation	Host Operating System	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2023-0462	Privilege Escalation	Host Operating System	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2023-0462	Privilege Escalation	Host Operating System	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2023-0462	Privilege Escalation	Host Operating System	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2023-0462	Privilege Escalation	Host Operating System	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2023-0462	Privilege Escalation	Host Operating System	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2023-0462	Privilege Escalation	Host Operating System	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2023-0462	Privilege Escalation	Host Operating System	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-20134	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-20134	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-20134	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-20134	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2023-20134	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-20134	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-2235	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-2235	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-2269	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-28803	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2023-28803	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2023-28803	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2023-28803	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2023-28803	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2023-28803	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2023-28803	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2023-28803	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2023-28803	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-28803	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2023-28803	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2023-28803	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2023-28803	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2023-28803	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2023-28803	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2023-28803	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2023-28803	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2023-28803	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-31039	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-31039	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-38874	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-38874	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-38874	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-41081	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2023-41081	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2023-41081	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2023-41081	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2023-41081	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2023-41081	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2023-41081	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2023-41081	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2023-41081	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-41081	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2023-4178	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2023-4178	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2023-4178	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2023-4178	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2023-4178	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2023-4178	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2023-4178	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2023-4178	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2023-4178	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4178	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2023-4178	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2023-4178	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2023-4178	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2023-4178	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2023-4178	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2023-4178	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2023-4178	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2023-4178	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-42912	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-42912	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-42912	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-42912	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2023-42912	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-42912	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-44981	Authentication Bypass	Host Operating System	Windows Shortcut File	File Encryption	Containment	File
+CVE-2023-44981	Authentication Bypass	Host Operating System	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2023-44981	Authentication Bypass	Host Operating System	Windows Shortcut File	Decoy File	Identification	File
+CVE-2023-44981	Authentication Bypass	Host Operating System	Windows Shortcut File	File Analysis	Identification	File
+CVE-2023-44981	Authentication Bypass	Host Operating System	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2023-44981	Authentication Bypass	Host Operating System	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2023-44981	Authentication Bypass	Host Operating System	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2023-44981	Authentication Bypass	Host Operating System	Authentication	Session Duration Analysis	Identification	General
+CVE-2023-44981	Authentication Bypass	Host Operating System	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-44981	Authentication Bypass	Host Operating System	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2023-44981	Privilege Escalation	Host Operating System	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2023-44981	Privilege Escalation	Host Operating System	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2023-44981	Privilege Escalation	Host Operating System	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2023-44981	Privilege Escalation	Host Operating System	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2023-44981	Privilege Escalation	Host Operating System	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2023-44981	Privilege Escalation	Host Operating System	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2023-44981	Privilege Escalation	Host Operating System	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2023-44981	Privilege Escalation	Host Operating System	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4601	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4601	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4702	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2023-4702	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2023-4702	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2023-4702	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2023-4702	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2023-4702	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2023-4702	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2023-4702	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2023-4702	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4702	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2023-4702	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2023-4702	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2023-4702	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2023-4702	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2023-4702	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2023-4702	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2023-4702	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2023-4702	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4760	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4760	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-49284	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-49284	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-49284	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-49297	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-49297	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-49297	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-49297	Shutdown	Application	Application	Software Update	Containment	General
+CVE-2023-49297	Shutdown	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-49297	Shutdown	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-4957	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2023-4957	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2023-4957	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2023-4957	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2023-4957	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2023-4957	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2023-4957	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2023-4957	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2023-4957	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-4957	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2023-5174	Code Execution	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-5174	Shutdown	Host Operating System	Operating System	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-5179	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-5179	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-5179	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-5246	Authentication Bypass	Application	Windows Shortcut File	File Encryption	Containment	File
+CVE-2023-5246	Authentication Bypass	Application	Windows Shortcut File	Local File Permissions	Identification	File
+CVE-2023-5246	Authentication Bypass	Application	Windows Shortcut File	Decoy File	Identification	File
+CVE-2023-5246	Authentication Bypass	Application	Windows Shortcut File	File Analysis	Identification	File
+CVE-2023-5246	Authentication Bypass	Application	Windows Shortcut File	Asset Vulnerability Enumeration	Identification	File
+CVE-2023-5246	Authentication Bypass	Application	Authentication	Authentication Event Thresholding	Identification	General
+CVE-2023-5246	Authentication Bypass	Application	Authentication	Resource Access Pattern Analysis	Identification	General
+CVE-2023-5246	Authentication Bypass	Application	Authentication	Session Duration Analysis	Identification	General
+CVE-2023-5246	Authentication Bypass	Application	Authentication	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-5246	Authentication Bypass	Application	Authentication Log	Asset Vulnerability Enumeration	Identification	Network
+CVE-2023-5246	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2023-5246	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2023-5246	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2023-5246	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2023-5246	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2023-5246	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2023-5246	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2023-5246	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-5604	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-5604	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-5604	Code Execution	Application	Application	Service Binary Verification	Identification	General
+CVE-2023-5604	Privilege Escalation	Application	Process Code Segment	Process Code Segment Verification	Identification	Process
+CVE-2023-5604	Privilege Escalation	Application	Process Code Segment	Memory Boundary Tracking	Identification	Process
+CVE-2023-5604	Privilege Escalation	Application	Process Code Segment	Process Segment Execution Prevention	Identification	Process
+CVE-2023-5604	Privilege Escalation	Application	Process Code Segment	Segment Address Offset Randomization	Containment	Process
+CVE-2023-5604	Privilege Escalation	Application	Process Code Segment	Asset Vulnerability Enumeration	Identification	Process
+CVE-2023-5604	Privilege Escalation	Application	Stack Frame	Stack Frame Canary Validation	Identification	General
+CVE-2023-5604	Privilege Escalation	Application	Stack Frame	Shadow Stack Comparisons	Identification	General
+CVE-2023-5604	Privilege Escalation	Application	Stack Frame	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-6553	Code Execution	Application	Application	Software Update	Containment	General
+CVE-2023-6553	Code Execution	Application	Application	Asset Vulnerability Enumeration	Identification	General
+CVE-2023-6553	Code Execution	Application	Application	Service Binary Verification	Identification	General
